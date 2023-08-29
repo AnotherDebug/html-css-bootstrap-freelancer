@@ -1,0 +1,9 @@
+header {
+    height: 80px;
+    background-color: rgba(0, 102, 255, 0.5);
+}
+
+[class^="col"] {
+    background-color: 0 0 0 0.3;
+    border: 1px solid #000;
+}
