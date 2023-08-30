@@ -11,6 +11,10 @@
     background-color: #2c3e50;
 }
 
+.bg-gray {
+    background-color: #3a546d;
+}
+
 /* /BACKGROUND COLORS */
 
 
@@ -68,6 +72,8 @@
     padding-left: 0;
 }
 
+
+
 /* MAIN */
 /* jumbotron */
 .jumbotron-ad {
@@ -77,10 +83,6 @@
 .jumbotron-ad .content .img{
     height: 450px;
 }
-
-
-
-
 
 /* /jumbotron */
 
