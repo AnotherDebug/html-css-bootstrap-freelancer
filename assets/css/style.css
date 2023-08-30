@@ -39,6 +39,14 @@
     padding: 10px 20px;
 }
 
+.button-ad:hover {
+    background-color: #1abc9ca0;
+}
+
+.btn-outline-light.button-ad:hover {
+    background-color: white;
+}
+
 .border-ra15 {
     border-radius: 15px;
 }
