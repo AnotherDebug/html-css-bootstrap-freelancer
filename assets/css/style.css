@@ -1,5 +1,5 @@
 /*************************************************
-    GENERAL STYLES
+    CUSTOM PROPERTIES
  *************************************************/
 
 /* BACKGROUND COLORS */
@@ -39,15 +39,27 @@
     .bg-lighttan {
         background-color: #ccb2a3;
     }  
-    
+
 /* /BACKGROUND COLORS */
 
+.color-ad {
+    color: white;
+}
 
 
 
-header {
+
+/************************************************
+    SITE SECTIONS
+ ************************************************/
+
+
+
+.fixed-top {
     height: 80px;
-    background-color: rgba(0, 102, 255, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 
 section {
@@ -64,4 +76,9 @@ section {
 .container-ad {
     width: 60%;
     margin: 0 auto;
+}
+
+
+.jumbotron-ad {
+    margin-top: 80px;
 }
