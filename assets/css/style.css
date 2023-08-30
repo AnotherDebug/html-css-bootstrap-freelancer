@@ -48,15 +48,24 @@
     z-index: 999;
 }
 
-
-[class^="col"] {
-    background-color: 0 0 0 0.3;
-    border: 1px solid #000;
-}
-
 .container-ad {
     width: 60%;
     margin: 0 auto;
+}
+
+/*bar */
+.bar {
+    width: 8%;
+    height: 5px;
+    border-radius: 3px;
+}
+
+.input-ad {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding-left: 0;
 }
 
 /* MAIN */
@@ -70,13 +79,7 @@
 }
 
 
-/*bar */
-.star .bar {
-    width: 8%;
-    height: 5px;
-    cursor: pointer;
-    border-radius: 3px;
-}
+
 
 
 /* /jumbotron */
