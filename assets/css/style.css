@@ -96,7 +96,9 @@
     margin: 0 auto;
 }
 
-
+.fixed-top .navbar .container a:hover {
+    color: #1abc9c;
+}
 
 
 /*bar */
@@ -164,5 +166,58 @@
 /* /hover col */
 
 /* /portfolio */
+
+/* FOOTER */
+/* social */
+
+/* facebook */
+.social span:nth-child(2):hover {
+    background-color: #4173b8;
+}
+
+/* google */
+.social span:nth-child(3):hover {
+    background-color: #f9bc02;
+}
+.social span:nth-child(3):hover i {
+    color: #e94234;
+}
+
+/* X */
+.social span:nth-child(4):hover {
+    background-color: #00ffff;
+}
+
+.social span:nth-child(4):hover i {
+    color: #4173b8;
+}
+
+/* linkedin */
+.social span:last-child:hover {
+    background-color: #47adff;
+}
+
+facebook:hover {
+    color: #4173b8;
+}
+
+twitter:hover {
+    color: #00ffff;
+}
+
+linkedin:hover {
+    color: #47adff;
+}
+
+linkedin:hover {
+    color: #e94234;
+    color: #f9bc02;
+    color: #33a853;
+    color: #4285f4;
+}
+
+
+/* /social */
+/* /FOOTER */
 
 /* /MAIN */
